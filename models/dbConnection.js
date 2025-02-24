@@ -3,7 +3,7 @@ const { Client } = require ('pg')
 const config = {
     host: 'localhost',
     port: 5432,
-    database: 'apec',
+    database: 'nextjob',
     user: 'postgres',
     password: '011985',
 }
