@@ -8,13 +8,13 @@ const config = {
     password: '011985',
 }
 
-const Apec = new Client (config)
+const Nextjob = new Client (config)
 
-Apec.connect()
+Nextjob.connect()
     .then (() => console.log('database connected !!!'))
     .catch (error => console.error(error))
 
 /*client.query('SELECT * FROM users')
 .then ((result) => console.log("result", result))*/
 
-module.exports = Apec;
+module.exports = Nextjob;
